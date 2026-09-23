@@ -46,24 +46,6 @@
 <img width="630" height="1400" alt="image" src="https://github.com/user-attachments/assets/f55fea84-ecd4-4578-a7ab-8ebdd20cb748" />
 
 
-## 🚀 Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/dotCalc.git
-```
-
-Open the project in **Android Studio**, allow Gradle to sync, and run it on an Android device or emulator.
-
-## 🗺️ Roadmap
-
-* [ ] Calculation history
-* [ ] More unit categories
-* [ ] More advanced mathematical functions
-* [ ] Additional themes
-* [ ] Improved conversion tools
-
 ## 📄 License
 
 This project is open source and available under the **MIT License**.
