@@ -1,0 +1,48 @@
+- `[x]` Rename `AppMode.CONVERSIONS` to `AppMode.CONVERT` in `UnitConversionEngine.kt`
+- `[x]` Update all usages of `AppMode.CONVERSIONS` to `AppMode.CONVERT`
+- `[x]` Update `HistoryButton` in `CalculatorScreen.kt` to use `NDotFontFamily`
+- `[x]` Update `ModeSelectorButton` and UI labels in `UnitConversionScreen.kt` to use `NDotFontFamily` and "CONVERT"
+- `[x]` Verify build and UI changes
+- `[x]` Fix layout shift in conversion boxes (fixed height)
+- `[x]` Fix text alignment in conversion fields (vertical centering)
+- `[x]` Update History Panel title to use `NDot` font
+- `[x]` Fix layout instability in Base Mode (prevent screen shifting on long input)
+- `[x]` Add ellipsis support to Input and Results in Base Mode
+- `[x]` Implement a reusable `BlinkingCursor` component
+- `[x]` Add cursor to `CalculatorDisplay` (Basic Mode)
+- `[x]` Add cursor to `ConversionFieldCard` (Convert Mode FROM field)
+- `[x]` Add cursor to `INPUT` section in `BaseCalculatorScreen` (Base Mode)
+- `[x]` Increase spacing between INPUT label and value in Base Mode
+- `[x]` Add a Settings button with icon next to the History button
+- `[x]` Reduce width of Header buttons (History and Mode Switcher) to 110.dp
+- `[x]` Implement dedicated full-screen Settings screen
+- `[x]` Preserve calculator state when navigating to/from Settings
+- `[x]` Implement Accent Mode (Red/White) as global theme values
+- `[x]` Implement intelligent, locale-aware parsing and formatting
+- `[x]` Ensure Grouping and Decimal settings are bypassed in Base Mode
+- `[x]` Ensure mutual exclusion between Settings and History drawers/screens
+- `[x]` Update keypad decimal button dynamically based on settings
+- `[x]` Verify build and persistence
+- `[x]` Perform full number formatting system audit
+- `[x]` Centralize all formatting in `SettingsManager`
+- `[x]` Fix Answer Preview decimal/grouping bug
+- `[x]` Ensure Base Mode ignores global formatting settings
+- `[x]` Implement correct Indian grouping (2,2,3)
+- `[x]` Support dynamic role swapping for Dot/Comma separators
+- `[x]` Fix Accent Mode to apply globally via theme values
+- `[x]` Centralize formatting logic in SettingsManager
+- `[x]` Implement Settings Panel UI
+- `[x]` Verify build and settings persistence
+- `[x]` Verify build and UI behavior
+- `[x]` Update cursor color to follow theme accent color
+- `[x]` Support cursor positioning via tap in Basic, Convert, and Base modes
+- `[x]` Implement distinct cursor styles (LINE vs BLOCK)
+- `[x]` Use standard LINE cursor for Basic and Convert modes
+- `[x]` Use BLOCK (programmer style) cursor for Base mode
+- `[x]` Ensure calculator starts blank instead of default "0"
+- `[x]` Enable cursor and tap-to-position for both fields in Convert mode
+- `[x]` Update Settings section headers and option labels to use NDot font
+- `[x]` Add "REDUCE ANIMATIONS" toggle in Settings
+- `[x]` Implement reduced motion logic for button presses, screen transitions, and layout changes
+- `[x]` Update editing logic (append/backspace) to respect cursor position
+- `[x]` Migrate Base mode input state to ViewModel for unified cursor handling

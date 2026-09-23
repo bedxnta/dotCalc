@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">dotCalc</string>
+    <string name="app_name_dotcalc">dotCalc</string>
+    <string name="app_name_calculator">Calculator</string>
+</resources>
