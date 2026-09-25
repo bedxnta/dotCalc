@@ -4,6 +4,13 @@
 
 **dotCalc** is a lightweight calculator app designed around simplicity and a distinctive dot-matrix visual style. Alongside everyday calculations, it includes **unit conversions** and **number-base conversions** for more practical and technical use.
 
+
+## If you like this project...
+Please consider donating to my **PayPal**:
+https://paypal.me/bedxnta
+I am a full time college student without any source of income and I need funds to host this on Play Store.
+
+
 ## ✦ Features
 
 * 🧮 **Standard Calculator**
